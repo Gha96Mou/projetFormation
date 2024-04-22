@@ -1,0 +1,33 @@
+.product-form-container {
+  /* Style the overall form container here */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.CreateProductButton{
+  margin-top: 10px;
+}
+
+.ResetProductButton {
+  margin-top: 10px;
+}
